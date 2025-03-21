@@ -1,0 +1,73 @@
+{
+  "length": {
+    "units": {
+      "meter": 1,
+      "kilometer": 0.001,
+      "mile": 0.000621371,
+      "yard": 1.09361,
+      "foot": 3.28084,
+      "inch": 39.3701
+    },
+    "formula": "value * (toUnit / fromUnit)"
+  },
+  "temperature": {
+    "units": {
+      "celsius": "C",
+      "fahrenheit": "F",
+      "kelvin": "K"
+    },
+    "formula": {
+      "C_to_F": "(value * 9/5) + 32",
+      "F_to_C": "(value - 32) * 5/9",
+      "C_to_K": "value + 273.15",
+      "K_to_C": "value - 273.15",
+      "F_to_K": "((value - 32) * 5/9) + 273.15",
+      "K_to_F": "((value - 273.15) * 9/5) + 32"
+    }
+  },
+  "area": {
+    "units": {
+      "square_meter": 1,
+      "square_kilometer": 0.000001,
+      "square_mile": 0.000000386102,
+      "square_yard": 1.19599,
+      "square_foot": 10.7639,
+      "square_inch": 1550
+    },
+    "formula": "value * (toUnit / fromUnit)"
+  },
+  "volume": {
+    "units": {
+      "liter": 1,
+      "milliliter": 1000,
+      "cubic_meter": 0.001,
+      "cubic_centimeter": 1000,
+      "gallon": 0.264172,
+      "quart": 1.05669,
+      "pint": 2.11338
+    },
+    "formula": "value * (toUnit / fromUnit)"
+  },
+  "weight": {
+    "units": {
+      "gram": 1,
+      "kilogram": 0.001,
+      "pound": 0.00220462,
+      "ounce": 0.035274,
+      "ton": 0.000001
+    },
+    "formula": "value * (toUnit / fromUnit)"
+  },
+  "time": {
+    "units": {
+      "second": 1,
+      "minute": 0.0166667,
+      "hour": 0.000277778,
+      "day": 0.0000115741,
+      "week": 0.00000165344,
+      "month": 0.000000380517,
+      "year": 0.0000000317098
+    },
+    "formula": "value * (toUnit / fromUnit)"
+  }
+}
